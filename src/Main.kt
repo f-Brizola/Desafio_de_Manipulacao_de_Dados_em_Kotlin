@@ -1,5 +1,3 @@
-import java.text.DecimalFormat
-
 fun main() {
 
     var nomeProduto: String = "cimento"
@@ -16,7 +14,6 @@ fun main() {
     fun valorComImposto (a: Float =taxaImposto, b: Float =valorTotal()): Float {
         return a * b
     }
-
 
     fun valorTotalImposto (a: Float =valorTotal(), b: Float =valorComImposto()): Float {
         return a - b
